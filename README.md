@@ -4,7 +4,9 @@
 Originally a cross-platform Flutter port of the "Friendly Eats" Firestore codelab. (https://codelabs.developers.google.com/codelabs/friendlyeats-flutter)
 
 Project Leader: Thong Tao Zhen (Pod-M5)
+
 Project Type: Group Project
+
 Group Member(s): -
 Muhammad Bolkiah (Pod-M5)
 
