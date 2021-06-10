@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../model/filter.dart';
 
 const _boldStyle = TextStyle(fontWeight: FontWeight.bold);
@@ -59,11 +58,22 @@ class FilterBar extends StatelessWidget {
     ];
   }
 
+  final ButtonStyle flatButtonStyle = TextButton.styleFrom(
+    primary: Colors.white,
+    padding: EdgeInsets.all(6),
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.all(Radius.circular(2.0)),
+    ),
+  );
+
+  //Changed FlatButton to TextButton and removed the following: color: Colors.white, padding: EdgeInsets.all(6),
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-      color: Colors.white,
-      padding: EdgeInsets.all(6),
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        primary: Colors.white,
+        onPrimary: Colors.black,
+      ),
       onPressed: _onPressed,
       child: Row(
         children: [

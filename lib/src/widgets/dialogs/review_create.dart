@@ -64,11 +64,11 @@ class _ReviewCreateDialogState extends State<ReviewCreateDialog> {
         ),
       ),
       actions: <Widget>[
-        FlatButton(
+        TextButton(
           child: Text('CANCEL'),
           onPressed: () => Navigator.pop(context, null),
         ),
-        RaisedButton(
+        ElevatedButton(
           child: Text('SAVE'),
           onPressed: () => Navigator.pop(
             context,

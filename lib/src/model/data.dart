@@ -7,20 +7,20 @@ import './review.dart';
 // This is the file that Codelab users will primarily work on.
 
 Future<void> addRestaurant(Restaurant restaurant) {
-    final restaurants = FirebaseFirestore.instance.collection('restaurants');
-    return restaurants.add({
-        'avgRating': restaurant.avgRating,
-        'category': restaurant.category,
-        'city': restaurant.city,
-        'name': restaurant.name,
-        'numRatings': restaurant.numRatings,
-        'photo': restaurant.photo,
-        'price': restaurant.price,
+  final restaurants = FirebaseFirestore.instance.collection('restaurants');
+  return restaurants.add({
+    'avgRating': restaurant.avgRating,
+    'category': restaurant.category,
+    'city': restaurant.city,
+    'name': restaurant.name,
+    'numRatings': restaurant.numRatings,
+    'photo': restaurant.photo,
+    'price': restaurant.price,
   });
 }
 
 Stream<QuerySnapshot> loadAllRestaurants() {
-    return FirebaseFirestore.instance
+  return FirebaseFirestore.instance
       .collection('restaurants')
       .orderBy('avgRating', descending: true)
       .limit(50)
@@ -34,7 +34,7 @@ List<Restaurant> getRestaurantsFromQuery(QuerySnapshot snapshot) {
 }
 
 Future<Restaurant> getRestaurant(String restaurantId) {
-      return FirebaseFirestore.instance
+  return FirebaseFirestore.instance
       .collection('restaurants')
       .doc(restaurantId)
       .get()
@@ -42,7 +42,7 @@ Future<Restaurant> getRestaurant(String restaurantId) {
 }
 
 Future<void> addReview({String restaurantId, Review review}) {
- final restaurant =
+  final restaurant =
       FirebaseFirestore.instance.collection('restaurants').doc(restaurantId);
   final newReview = restaurant.collection('ratings').doc();
 
@@ -85,7 +85,7 @@ Stream<QuerySnapshot> loadFilteredRestaurants(Filter filter) {
   return collection
       .orderBy(filter.sort ?? 'avgRating', descending: true)
       .limit(50)
-      .snapshots();;
+      .snapshots();
 }
 
 void addRestaurantsBatch(List<Restaurant> restaurants) {

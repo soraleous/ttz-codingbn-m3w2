@@ -1,11 +1,11 @@
 {
-    "name": "friendlyeats",
-    "short_name": "friendlyeats",
+    "name": "BruneiEats",
+    "short_name": "BruneiEats",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Brunei Restaurant Recommendations App",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ios",
-    "\\web"
+    "\\lib",
+    "\\lib\\src",
+    "\\lib\\src\\model"
   ],
-  "SelectedNode": "\\firebase.json",
+  "SelectedNode": "\\lib\\src\\model\\data.dart",
   "PreviewInSolutionExplorer": false
 }
