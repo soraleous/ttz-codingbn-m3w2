@@ -1,7 +1,7 @@
 
 
-# TTZ CodingBN M3W2 Project
-Originally a cross-platform Flutter port of the "Friendly Eats" Firestore codelab. (https://codelabs.developers.google.com/codelabs/friendlyeats-flutter)
+# Brunei Restaurant Recommendations App Project
+Originally a cross-platform Flutter port of the "FriendlyEats" Firestore codelab. (https://codelabs.developers.google.com/codelabs/friendlyeats-flutter)
 
 Project Leader: Thong Tao Zhen (Pod-M5)
 
