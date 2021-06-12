@@ -7,6 +7,9 @@ class FriendlyEatsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primaryColor: Colors.yellow.shade800),
       title: 'BruneiEats',
       onGenerateRoute: (settings) {
         switch (settings.name) {
