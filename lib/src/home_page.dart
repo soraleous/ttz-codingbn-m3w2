@@ -1,10 +1,8 @@
 import 'dart:async';
 import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 import 'restaurant_page.dart';
 import 'model/data.dart' as data;
 import 'model/filter.dart';
@@ -13,6 +11,8 @@ import 'widgets/empty_list.dart';
 import 'widgets/filter_bar.dart';
 import 'widgets/grid.dart';
 import 'widgets/dialogs/filter_select.dart';
+
+// Home Page Setup (Currently automatically signs in user as anonymous)
 
 class HomePage extends StatefulWidget {
   static const route = '/';
@@ -23,6 +23,7 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
+// Signs in user as anonymous as we currently have no authentication setup
 class _HomePageState extends State<HomePage> {
   _HomePageState() {
     FirebaseAuth.instance

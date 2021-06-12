@@ -1,10 +1,10 @@
+// Data Model
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import './filter.dart';
 import './restaurant.dart';
 import './review.dart';
 
-// This is the file that Codelab users will primarily work on.
+// This is the Main file to modify
 
 Future<void> addRestaurant(Restaurant restaurant) {
   final restaurants = FirebaseFirestore.instance.collection('restaurants');

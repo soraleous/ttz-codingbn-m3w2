@@ -1,9 +1,9 @@
 import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
-
 import '../../model/review.dart';
+
+// Review Creation Dialog
 
 class ReviewCreateDialog extends StatefulWidget {
   final String userName;

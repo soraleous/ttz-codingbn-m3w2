@@ -1,14 +1,10 @@
-
-
 import 'dart:async';
 import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:sliver_fab/sliver_fab.dart';
-
 import 'widgets/empty_list.dart';
 import 'model/data.dart' as data;
 import 'model/restaurant.dart';
@@ -16,6 +12,8 @@ import 'model/review.dart';
 import 'widgets/app_bar.dart';
 import 'widgets/review.dart';
 import 'widgets/dialogs/review_create.dart';
+
+// Restaurant Page setup here
 
 class RestaurantPage extends StatefulWidget {
   static const route = '/restaurant';

@@ -1,8 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
 import '../model/restaurant.dart';
 import 'stars.dart';
+
+// Cards to display each restaurant
 
 class RestaurantCard extends StatelessWidget {
   RestaurantCard({

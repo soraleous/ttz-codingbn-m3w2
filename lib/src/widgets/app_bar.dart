@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-
 import '../model/restaurant.dart';
 import 'stars.dart';
+
+// Filter's App Bar Setup to show user their filter selections
 
 class RestaurantAppBar extends StatelessWidget {
   static final double appBarHeight = 160;

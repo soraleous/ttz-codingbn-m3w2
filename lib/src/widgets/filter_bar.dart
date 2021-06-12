@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../model/filter.dart';
 
+// Filter Bar Setup
+
 const _boldStyle = TextStyle(fontWeight: FontWeight.bold);
 
 class FilterBar extends StatelessWidget {

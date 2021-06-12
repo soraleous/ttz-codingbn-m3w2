@@ -1,9 +1,9 @@
 import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
-
 import '../../model/values.dart' as hardcoded;
 import '../../model/filter.dart';
+
+// Dialog for the Filter Selection
 
 class FilterSelectDialog extends StatefulWidget {
   FilterSelectDialog({Key key, Filter filter})

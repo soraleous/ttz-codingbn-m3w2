@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Empty List detection and setup
+
 typedef EmptyListActionButtonCallback = void Function();
 
 class EmptyListView extends StatelessWidget {

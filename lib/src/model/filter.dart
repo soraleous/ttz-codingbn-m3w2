@@ -1,3 +1,4 @@
+// Filter Model
 typedef FilterChangedCallback<T> = void Function(T newValue);
 
 class Filter {

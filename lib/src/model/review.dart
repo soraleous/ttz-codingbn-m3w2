@@ -1,8 +1,6 @@
-
+// Review Model
 import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import './values.dart';
 
 // This is called "ratings" in the backend.

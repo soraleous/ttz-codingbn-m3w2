@@ -1,10 +1,10 @@
 import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
-
 import '../model/restaurant.dart';
 import 'card.dart';
+
+// Grid Layout setup here
 
 const double _minSpacingPx = 16;
 const double _cardWidth = 360;
