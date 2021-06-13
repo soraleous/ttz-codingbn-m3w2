@@ -86,6 +86,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         leading: Icon(Icons.restaurant),
         title: Text('BruneiEats'),
+        backgroundColor: Colors.yellow.shade800,
         bottom: PreferredSize(
           preferredSize: Size(320, 48),
           child: Padding(

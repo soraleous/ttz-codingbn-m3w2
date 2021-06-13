@@ -19,9 +19,10 @@ class _ReviewCreateDialogState extends State<ReviewCreateDialog> {
   double rating = 0;
   String review;
 
+  // Star count selection is rather buggy on web as it works on mobile platforms
   @override
   Widget build(BuildContext context) {
-    Color color = rating == 0 ? Colors.grey : Colors.amber;
+    Color color = rating == 0 ? Colors.amber : Colors.grey;
     return AlertDialog(
       title: Text('Add a Review'),
       content: Container(
@@ -36,7 +37,7 @@ class _ReviewCreateDialogState extends State<ReviewCreateDialog> {
                 starCount: 5,
                 rating: rating,
                 color: color,
-                borderColor: Colors.grey,
+                borderColor: Colors.amber,
                 size: 32,
                 onRated: (value) {
                   if (mounted) {

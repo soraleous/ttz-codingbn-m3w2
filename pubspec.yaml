@@ -5,7 +5,7 @@
 # For generating a production build (HTML Renderer): flutter build web --web-renderer html --release
 # For deploying production to firebase hosting: firebase deploy --only hosting
 name: BruneiEats
-description: A new Flutter project used for a Brunei Restaurant Recommendations App that's.
+description: A new Flutter project used for a Brunei Restaurant Recommendations App.
 
 # version: 1.0.0
 publish_to: none
