@@ -1,7 +1,6 @@
 
 
 # Brunei Restaurant Recommendations App Project
-Originally based on a cross-platform Flutter port of the "FriendlyEats" Firestore codelab. (https://codelabs.developers.google.com/codelabs/friendlyeats-flutter & https://github.com/FirebaseExtended/codelab-friendlyeats-flutter)
 
 **Project Leader:** Thong Tao Zhen (Pod-M5)
 
@@ -25,3 +24,10 @@ Currently it is really hard to find new and potentially good restaurants in Brun
 
 **Potential Solution: -**
 To create a web app for customers to quickly find potentially good restaurants either near them or based on reviews, and for restaurant owners to find out about their customer’s feedback all in one app.
+
+**Project References/Resources: -**
+
+- Originally based on a cross-platform Flutter port of the "FriendlyEats" Firestore codelab. (https://codelabs.developers.google.com/codelabs/friendlyeats-flutter & https://github.com/FirebaseExtended/codelab-friendlyeats-flutter)
+- Front-End: Flutter & Dart
+- Back-End: Google Firebase
+- <div>App Icon used in project is made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
