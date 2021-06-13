@@ -32,7 +32,7 @@ class EmptyListView extends StatelessWidget {
             ),
           ),
           child,
-          ElevatedButton(child: Text('ADD SOME'), onPressed: onPressed),
+          // (This is for dummy data) ElevatedButton(child: Text('ADD SOME'), onPressed: onPressed),
         ],
       ),
     );
